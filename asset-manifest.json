@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ecommerce-app/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/ecommerce-app/static/js/main.e4c30d94.chunk.js",
+    "main.js.map": "/ecommerce-app/static/js/main.e4c30d94.chunk.js.map",
+    "runtime-main.js": "/ecommerce-app/static/js/runtime-main.63b3d168.js",
+    "runtime-main.js.map": "/ecommerce-app/static/js/runtime-main.63b3d168.js.map",
+    "static/js/2.e8a95585.chunk.js": "/ecommerce-app/static/js/2.e8a95585.chunk.js",
+    "static/js/2.e8a95585.chunk.js.map": "/ecommerce-app/static/js/2.e8a95585.chunk.js.map",
+    "static/js/3.082bcbf2.chunk.js": "/ecommerce-app/static/js/3.082bcbf2.chunk.js",
+    "static/js/3.082bcbf2.chunk.js.map": "/ecommerce-app/static/js/3.082bcbf2.chunk.js.map",
+    "index.html": "/ecommerce-app/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/ecommerce-app/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.e8a95585.chunk.js.LICENSE.txt": "/ecommerce-app/static/js/2.e8a95585.chunk.js.LICENSE.txt",
+    "static/media/shopicon.3788a26c.png": "/ecommerce-app/static/media/shopicon.3788a26c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63b3d168.js",
+    "static/js/2.e8a95585.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.e4c30d94.chunk.js"
+  ]
+}
