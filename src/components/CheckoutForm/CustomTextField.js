@@ -8,7 +8,7 @@ const { control } = useFormContext();
    const isError = false;
 
 return (
-   <>
+   <Grid item xs={12} sm={6}>
          <Controller
             control={control}
             name={name}
@@ -18,10 +18,11 @@ return (
                     fullWidth
                     label={label}
                     required
+                    error={isError}
                 />
             )}
          />
-   </>
+   </Grid>
  );
  }
 

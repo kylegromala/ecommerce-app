@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '@material-ui/core';
+import { AppBar, Toolbar, IconButton, Badge, Typography } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons'
 import useStyles from './styles';
 import shopIcon from '../../assets/shopicon.png';
@@ -16,10 +16,10 @@ const Navbar = ({ totalItems }) => {
                 <Toolbar>
                     <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
                         <img src={shopIcon} alt="Commerce.js" height="40px" className={classes.image} />
-                        E-Commerce Shop
+                        Kyle's Electronics
                     </Typography>
                     <div className={classes.grow} />
-                    {location.pathname == '/' && (
+                    {location.pathname === '/' && (
                     <div className={classes.button}>
                         <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
                             <Badge badgeContent={totalItems} color="secondary">
